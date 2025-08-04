@@ -47,6 +47,9 @@ local function InitWorld()
             SetMinimapHideFow(true)
             SetFowUpdatePlayerOverride(false, 0)
             SetOceanGuarmaWaterQuadrant(0.0, 50.04, 1, 1.15, 1.28, -1.0, 1.86, 8.1, 1)
+            if (IsIplActiveHash(603871447)) then
+                RemoveIplHash(603871447) -- Remove fire
+            end
         end
         PreviousWorldType = worldType
     end
