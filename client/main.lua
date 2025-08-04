@@ -46,6 +46,7 @@ local function InitWorld()
             SetMinimapZone(`guarma`)
             SetMinimapHideFow(true)
             SetFowUpdatePlayerOverride(false, 0)
+            SetOceanGuarmaWaterQuadrant(0.0, 50.04, 1, 1.15, 1.28, -1.0, 1.86, 8.1, 1)
         end
         PreviousWorldType = worldType
     end
